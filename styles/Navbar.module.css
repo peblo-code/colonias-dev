@@ -1,0 +1,30 @@
+.navbar_container {
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    padding: 1em;
+    gap: 2em;
+}
+
+.title_tag {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #F0A202;
+    width: 10em;
+    padding: .5em;
+    border-radius: 4px;
+    box-shadow: 4px 7px 5px -4px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 4px 7px 5px -4px rgba(0,0,0,0.65);
+    -moz-box-shadow: 4px 7px 5px -4px rgba(0,0,0,0.65);
+}
+
+.title {
+    margin: 0;
+}
+
+.navbar_links {
+    display: flex;
+    justify-content: space-between;
+    width: 17em;
+    font-weight: bold;
+}
